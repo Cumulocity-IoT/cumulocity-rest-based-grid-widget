@@ -1,0 +1,17 @@
+{
+  "name": "Rest Based Grid Runtime Widget",
+  "contextPath": "rest-based-grid-runtime-widget",
+  "key": "rest-based-grid-runtime-widget-application-key",
+  "contentSecurityPolicy": "default-src 'self'",
+  "icon": {
+    "class": "c8y-icon-wm-dynamicapps"
+  },
+  "manifest": {
+    "noAppSwitcher": true,
+    "requiredPlatformVersion": ">=1011.0.0",
+    "version": "2.0.0",
+    "license": "Apache 2.0",
+    "description": "The Rest Based Grid Widget help you to display the API data as Grids/Table (App Builder only).",
+    "author": "Meer Arfath - Software AG, Global Presales"
+  }
+}

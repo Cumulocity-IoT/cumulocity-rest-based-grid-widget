@@ -1,0 +1,88 @@
+<div class="form-group">
+  <c8y-form-group>
+   
+    <div class="form-group">
+      <label translate>Data Source URL</label>
+      <input type="text" class="form-control" name="config.url" style="width:100%" [(ngModel)]="config.url">
+    </div>  
+    <div class="row">
+      <div class="col-sm-6 form-horizontal">
+         <div class="col-sm-12 form-group">
+    <div class="btn-group device-list-switch-toggle ">
+      <label class="c8y-switch ">
+          <input type="checkbox" id="isDevice" [checked]="config.isDevice" 
+          [(ngModel)]="config.isDevice">
+          <span></span> Is this a Device specific ?
+        </label>
+     </div>
+         </div>
+      </div>
+    </div>
+   
+    <div class="form-group">
+      <label translate>Name of the Main document List from API</label>
+      <input type="text" class="form-control" name="config.mainListName" style="width:100%" [(ngModel)]="config.mainListName">
+    </div>
+    
+    <div class="form-group">
+      <label translate>Table Column Headings (comma separated e.g: ID,)</label>
+      <input type="text" class="form-control" name="config.tableColumnNames" style="width:100%" [(ngModel)]="config.tableColumnNames">
+    </div>
+   
+    <div class="form-group">
+      <label translate>Table Column Names from API (comma separated e.g: id,)</label>
+      <input type="text" class="form-control" name="config.tableColumnValues" style="width:100%" [(ngModel)]="config.tableColumnValues">
+    </div>
+    
+    <div class="row">
+      <div class="col-sm-6 form-horizontal">
+         <div class="col-sm-12 form-group">
+                  <label for="pageSize" class=" col-sm-6 control-label">Page Size:</label>
+                  <div class="col-sm-6 ">
+                      <select  [(ngModel)]="config.pageSize" name="pageSize" id="pageSize">
+                          <option *ngFor="let pageSize of pageSizeList"
+                            [selected]="config.pageSize === pageSize"
+                          [ngValue]='pageSize'>
+                              {{pageSize}}</option>
+                      </select>
+                  </div>
+              </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 form-horizontal">
+         <div class="col-sm-12 form-group">
+    <div class="btn-group device-list-switch-toggle ">
+      <label class="c8y-switch ">
+          <input type="checkbox" id="isDevice" [checked]="config.theCheckbox" 
+          [(ngModel)]="config.theCheckbox"
+          (change)="toggleVisibility($event)">
+          <span></span> Expandable Table with Nested List
+        </label>
+     </div>
+         </div>
+         </div>
+    </div>
+
+
+  <div *ngIf="config.theCheckbox">
+
+    <div class="form-group">
+      <label translate>Name of the Sub document List from API</label>
+      <input type="text" name="config.subListName" style="width:100%" [(ngModel)]="config.subListName">
+    </div>
+    
+    <div class="form-group">
+      <label translate>Table Column Headings (comma separated e.g: ID,)</label>
+      <input type="text" name="config.subTableColumnNames" style="width:100%" [(ngModel)]="config.subTableColumnNames">
+    </div>
+    
+    <div class="form-froup">
+      <label translate>Table Column Names from API (comma separated e.g: id,)</label>
+      <input type="text" name="config.subTableColumnValues" style="width:100%" [(ngModel)]="config.subTableColumnValues">
+    </div>
+     
+  </div>
+
+  </c8y-form-group>
+</div>
