@@ -1,5 +1,5 @@
 {
-  "name": "gp-rest-based-grid-project",
+  "name": "cumulocity-rest-based-grid-widget",
   "version": "2.0.0",
   "description": "The Rest Based Grid Widget help you to display the API data as Grids/Table (App Builder only).",
   "author": "Meer Arfath - Software AG, Global Presales",
