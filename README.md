@@ -1,6 +1,5 @@
 
-  # Cumulocity Rest Based Grid Widget[<img width="35" src="https://user-images.githubusercontent.com/67993842/97668428-f360cc80-1aa7-11eb-8801-da578bda4334.png"/>](https://github.com/SoftwareAG/cumulocity-asset-viewer-widget/releases/download/2.0.0/asset-viewer-runtime-widget-2.0.0.zip)
-  
+  # Cumulocity Rest Based Grid Widget[<img width="35" src="https://user-images.githubusercontent.com/67993842/97668428-f360cc80-1aa7-11eb-8801-da578bda4334.png"/>](https://github.com/SoftwareAG/cumulocity-rest-based-grid-widget/releases/download/2.0.0/rest-based-grid-runtime-widget-2.0.0.zip)
 The Cumulocity Rest Based Grid Widget help you to display API data in Grid view with configurable columns and headings. This widget also supports Nested lists, search and server side pagination, etc.
 
 ### Please choose Cumulocity Rest Based Grid Widget release based on Cumulocity/Application builder version:
@@ -8,12 +7,8 @@ The Cumulocity Rest Based Grid Widget help you to display API data in Grid view 
 |APPLICATION BUILDER | CUMULOCITY | Cumulocity Rest Based Grid Widget |
 |--------------------|------------|-----------------------|
 | 1.3.x              | >= 1011.x.x| 2.x.x                 |
-| 1.2.x              | 1010.x.x   | 1.x.x                 |  
 
-![restbasedgrid single list](https://user-images.githubusercontent.com/89508319/154007493-d909aa69-3d02-4e48-bc7c-0c7b0c8ccd16.png)
-
-
-![restbasedgrid nested list](https://user-images.githubusercontent.com/89508319/154007516-3c2c926d-9b79-4718-a1d7-8d640579f54c.png)
+![RestBasedGrid](https://user-images.githubusercontent.com/16031030/159456017-357ec719-b3b0-4fba-9977-f9a39ae59e93.png)
 
 
 ## Features
@@ -34,7 +29,7 @@ The Cumulocity Rest Based Grid Widget help you to display API data in Grid view 
   
 ### Runtime Widget Deployment?
 
-* This widget support runtime deployment. Download [Runtime Binary](https://github.com/SoftwareAG/cumulocity-asset-viewer-widget/releases/download/2.0.0/asset-viewer-runtime-widget-2.0.0.zip)  and follow runtime deployment instructions.
+* This widget support runtime deployment. Download [Runtime Binary](https://github.com/SoftwareAG/cumulocity-rest-based-grid-widget/releases/download/2.0.0/rest-based-grid-runtime-widget-2.0.0.zip)  and follow runtime deployment instructions.
   
 
 ### Installation of widget through App Builder
@@ -59,7 +54,7 @@ The Cumulocity Rest Based Grid Widget help you to display API data in Grid view 
 
 "@angular/material": "^11.1.2"
 
-"@ng-select/ng-select": "^6.1.0"
+"ngx-bootstrap": "6.2.0"
 
 ```
 
@@ -74,10 +69,10 @@ The Cumulocity Rest Based Grid Widget help you to display API data in Grid view 
 
     ```
 
-    npm i @angular/material@11.1.2 @ng-select/ng-select@6.1.0
+    npm i @angular/material@11.1.2 ngx-bootstrap@6.2.0
 
     ```
-2. Grab the Rest Based Grid widget **[Latest Release Binary](https://github.com/SoftwareAG/cumulocity-asset-viewer-widget/releases/download/2.0.0/gp-asset-viewer-2.0.0.tgz)**.
+2. Grab the Rest Based Grid widget **[Latest Release Binary](  https://github.com/SoftwareAG/cumulocity-rest-based-grid-widget/releases/download/2.0.0/gp-rest-based-grid-widget-2.0.0.tgz)**.
 
 
 3. Install the Binary file in app builder.
@@ -150,7 +145,7 @@ The Cumulocity Rest Based Grid Widget help you to display API data in Grid view 
 
     ```  
 
-    git clone https://github.com/SoftwareAG/cumulocity-asset-viewer-widget.git
+    git clone https://github.com/SoftwareAG/cumulocity-rest-based-grid-widget.git
 
     ```
 
