@@ -39,6 +39,8 @@ return this.restItems;
 
 }
 
+// To get External ID for a Device
+
 async getExternalIdForDevice(config) {
 
   const inventory = await this.inventory.detail(config.device.id);

@@ -116,7 +116,7 @@ export class GpRestBasedGridWidgetComponent implements OnInit {
 
     }
   }
-
+// Refresh
   async refresh() {
 
     if (this.config.isDevice) {
@@ -174,6 +174,7 @@ export class GpRestBasedGridWidgetComponent implements OnInit {
     }
 
  }
+ // Search Filter
  applyFilter(event: Event) {
   this.filterValue = (event.target as HTMLInputElement).value;
   this.dataSource.filter = this.filterValue.trim().toLowerCase();
