@@ -1,6 +1,6 @@
 {
   "name": "cumulocity-rest-based-grid-widget",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "The Rest Based Grid Widget help you to display the API data as Grids/Table.",
   "author": "Meer Arfath - Software AG, Global Presales",
   "license": "Apache 2.0",
