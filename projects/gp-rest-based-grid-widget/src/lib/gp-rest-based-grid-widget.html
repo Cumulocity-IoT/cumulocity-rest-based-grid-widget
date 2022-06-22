@@ -4,7 +4,7 @@
       <div id="search" class="input-group input-group-search">
         <input
           type="search"
-          class="form-control"
+          class="form-control inputTheme"
           placeholder="Enter Device Name, Id, External Id, Alerts Type, etc."
           (keyup)="applyFilter($event)" [(ngModel)]="filterValue"
         />
@@ -35,7 +35,7 @@
     [dataSource]="dataSource"
     matSort
     multiTemplateDataRows
-    class="mat-elevation-z8"
+    class="mat-elevation-z8 brandingTheme"
   
     *ngIf="this.displayedColumns"
   >

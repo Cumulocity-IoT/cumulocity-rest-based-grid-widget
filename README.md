@@ -1,5 +1,5 @@
 
-  # Cumulocity Rest Based Grid Widget[<img width="35" src="https://user-images.githubusercontent.com/67993842/97668428-f360cc80-1aa7-11eb-8801-da578bda4334.png"/>](https://github.com/SoftwareAG/cumulocity-rest-based-grid-widget/releases/download/2.0.0/rest-based-grid-runtime-widget-2.0.0.zip)
+  # Cumulocity Rest Based Grid Widget[<img width="35" src="https://user-images.githubusercontent.com/67993842/97668428-f360cc80-1aa7-11eb-8801-da578bda4334.png"/>](https://github.com/SoftwareAG/cumulocity-rest-based-grid-widget/releases/download/2.0.1/rest-based-grid-runtime-widget-2.0.1.zip)
 The Cumulocity Rest Based Grid Widget help you to display API data in Grid view with configurable columns and headings. This widget also supports Nested lists, search and server side pagination, etc.
 
 ### Please choose Cumulocity Rest Based Grid Widget release based on Cumulocity/Application builder version:
@@ -29,7 +29,7 @@ The Cumulocity Rest Based Grid Widget help you to display API data in Grid view 
   
 ### Runtime Widget Deployment?
 
-* This widget support runtime deployment. Download [Runtime Binary](https://github.com/SoftwareAG/cumulocity-rest-based-grid-widget/releases/download/2.0.0/rest-based-grid-runtime-widget-2.0.0.zip)  and follow runtime deployment instructions.
+* This widget support runtime deployment. Download [Runtime Binary](https://github.com/SoftwareAG/cumulocity-rest-based-grid-widget/releases/download/2.0.1/rest-based-grid-runtime-widget-2.0.1.zip)  and follow runtime deployment instructions.
   
 
 ### Installation of widget through App Builder
@@ -72,7 +72,7 @@ The Cumulocity Rest Based Grid Widget help you to display API data in Grid view 
     npm i @angular/material@11.1.2 ngx-bootstrap@6.2.0
 
     ```
-2. Grab the Rest Based Grid widget **[Latest Release Binary](  https://github.com/SoftwareAG/cumulocity-rest-based-grid-widget/releases/download/2.0.0/gp-rest-based-grid-widget-2.0.0.tgz)**.
+2. Grab the Rest Based Grid widget **[Latest Release Binary](  https://github.com/SoftwareAG/cumulocity-rest-based-grid-widget/releases/download/2.0.1/gp-rest-based-grid-widget-2.0.1.tgz)**.
 
 
 3. Install the Binary file in app builder.
