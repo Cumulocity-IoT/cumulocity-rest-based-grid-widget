@@ -8,7 +8,7 @@ The Cumulocity Rest Based Grid Widget help you to display API data in Grid view 
 |--------------------|------------|-----------------------|
 | 1.3.x              | >= 1011.x.x| 2.x.x                 |
 
-![RestBasedGrid](https://user-images.githubusercontent.com/16031030/159456017-357ec719-b3b0-4fba-9977-f9a39ae59e93.png)
+![Rest_Based_Grid](https://user-images.githubusercontent.com/99970126/181492297-d4a1b818-45c4-463a-834c-361421a2e582.PNG)
 
 
 ## Features
