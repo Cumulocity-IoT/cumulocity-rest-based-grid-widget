@@ -2,6 +2,8 @@
   # Cumulocity Rest Based Grid Widget[<img width="35" src="https://user-images.githubusercontent.com/67993842/97668428-f360cc80-1aa7-11eb-8801-da578bda4334.png"/>](https://github.com/SoftwareAG/cumulocity-rest-based-grid-widget/releases/download/2.0.1/rest-based-grid-runtime-widget-2.0.1.zip)
 The Cumulocity Rest Based Grid Widget help you to display API data in Grid view with configurable columns and headings. This widget also supports Nested lists, search and server side pagination, etc.
 
+ ### ⚠️ This project is no longer under development. Please use [cumulocity-rest-based-grid-widget-plugin](https://github.com/SoftwareAG/cumulocity-rest-based-grid-widget-plugin) for Application Builder >=2.x.x and Cumulocity >=1016.x.x⚠️
+
 ### Please choose Cumulocity Rest Based Grid Widget release based on Cumulocity/Application builder version:
 
 |APPLICATION BUILDER | CUMULOCITY | Cumulocity Rest Based Grid Widget |
